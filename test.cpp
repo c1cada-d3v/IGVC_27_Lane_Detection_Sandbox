@@ -2,7 +2,7 @@
 #include <iostream>
 
 // Running OpenCV for the first time with webcam, annotated. C++ instead of Python for now.
-main(){
+int main(){
     
     cv::VideoCapture cap(0); 
 
