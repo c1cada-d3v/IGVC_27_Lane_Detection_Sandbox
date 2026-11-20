@@ -35,19 +35,6 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -88,19 +75,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
-      ENV{INCLUDE}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\include"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\ATLMFC\\include"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "message-v1"
     backtrace:
@@ -117,7 +94,7 @@ events:
       The output was:
       0
       MSBuild version 18.12.3-1.26559.12+8df097b6f for .NET Framework
-      Build started 11/19/2026 6:55:58 PM.
+      Build started 11/19/2026 7:33:01 PM.
       
       Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -146,7 +123,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.07
+      Time Elapsed 00:00:00.95
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -179,18 +156,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -226,28 +191,13 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -288,10 +238,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -315,18 +264,6 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -362,50 +299,12 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -464,19 +363,6 @@ events:
     found: "C:/mingw64/bin/lld-link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -517,10 +403,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -542,18 +427,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -589,28 +462,13 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -651,10 +509,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -676,18 +533,6 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -723,49 +568,126 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/mt.com"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/mt.exe"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/mingw64/bin/mt.com"
+      - "C:/mingw64/bin/mt.exe"
+      - "C:/mingw64/bin/mt"
+      - "C:/Program Files/usbipd-win/mt.com"
+      - "C:/Program Files/usbipd-win/mt.exe"
+      - "C:/Program Files/usbipd-win/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Program Files/WSL/mt.com"
+      - "C:/Program Files/WSL/mt.exe"
+      - "C:/Program Files/WSL/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/user/.dotnet/tools/mt.com"
+      - "C:/Users/user/.dotnet/tools/mt.exe"
+      - "C:/Users/user/.dotnet/tools/mt"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt.com"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt.exe"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt.com"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt.exe"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/mt"
+      - "C:/Program Files (x86)/Nmap/mt.com"
+      - "C:/Program Files (x86)/Nmap/mt.exe"
+      - "C:/Program Files (x86)/Nmap/mt"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -806,10 +728,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -831,18 +752,6 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -878,28 +787,13 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -940,10 +834,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -971,19 +864,6 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -1024,19 +904,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
-      ENV{INCLUDE}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\include"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\ATLMFC\\include"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "message-v1"
     backtrace:
@@ -1053,7 +923,7 @@ events:
       The output was:
       0
       MSBuild version 18.12.3-1.26559.12+8df097b6f for .NET Framework
-      Build started 11/19/2026 6:56:00 PM.
+      Build started 11/19/2026 7:33:02 PM.
       
       Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -1082,7 +952,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.08
+      Time Elapsed 00:00:00.95
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1115,19 +985,6 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files (x86)/Pololu/Maestro/bin/"
       - "C:/Windows/System32/"
@@ -1163,10 +1020,8 @@ events:
       - "C:/Program Files (x86)/Nmap/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
       - "C:/Users/user/AppData/Local/Muse Hub/lib/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1180,44 +1035,156 @@ events:
       - "C:/Program Files/OpenCVTest/sbin/"
       - "C:/Program Files/OpenCVTest/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/rc.com"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/rc.exe"
+      - "C:/Program Files (x86)/Pololu/Maestro/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/mingw64/bin/rc.com"
+      - "C:/mingw64/bin/rc.exe"
+      - "C:/mingw64/bin/rc"
+      - "C:/Program Files/usbipd-win/rc.com"
+      - "C:/Program Files/usbipd-win/rc.exe"
+      - "C:/Program Files/usbipd-win/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Program Files/WSL/rc.com"
+      - "C:/Program Files/WSL/rc.exe"
+      - "C:/Program Files/WSL/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/user/.dotnet/tools/rc.com"
+      - "C:/Users/user/.dotnet/tools/rc.exe"
+      - "C:/Users/user/.dotnet/tools/rc"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc.com"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc.exe"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc.com"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc.exe"
+      - "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/rc"
+      - "C:/Program Files (x86)/Nmap/rc.com"
+      - "C:/Program Files (x86)/Nmap/rc.exe"
+      - "C:/Program Files (x86)/Nmap/rc"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Users/user/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/user/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/user/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files/OpenCVTest/bin/rc.com"
+      - "C:/Program Files/OpenCVTest/bin/rc.exe"
+      - "C:/Program Files/OpenCVTest/bin/rc"
+      - "C:/Program Files/OpenCVTest/sbin/rc.com"
+      - "C:/Program Files/OpenCVTest/sbin/rc.exe"
+      - "C:/Program Files/OpenCVTest/sbin/rc"
+      - "C:/Program Files/OpenCVTest/rc.com"
+      - "C:/Program Files/OpenCVTest/rc.exe"
+      - "C:/Program Files/OpenCVTest/rc"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
         - "C:\\Windows\\system32"
@@ -1258,10 +1225,9 @@ events:
         - "C:\\Program Files (x86)\\Nmap"
         - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
         - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+        - "c:\\Users\\meppf\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\meppf\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/OpenCVTest"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1277,8 +1243,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-kbq6yx"
-      binary: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-kbq6yx"
+      source: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-8xjs9u"
+      binary: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-8xjs9u"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -1288,39 +1254,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-kbq6yx'
+        Change Dir: 'C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-8xjs9u'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4bbc1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a11db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.12.3-1.26559.12+8df097b6f for .NET Framework
-        Build started 11/19/2026 6:56:01 PM.
+        Build started 11/19/2026 7:33:04 PM.
         
-        Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kbq6yx\\cmTC_4bbc1.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xjs9u\\cmTC_a11db.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kbq6yx\\Debug\\".
-          Creating directory "cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.tlog\\".
+          Creating directory "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xjs9u\\Debug\\".
+          Creating directory "cmTC_a11db.dir\\Debug\\cmTC_a11db.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a11db.dir\\Debug\\cmTC_a11db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a11db.dir\\Debug\\cmTC_a11db.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4bbc1.dir\\Debug\\\\" /Fd"cmTC_4bbc1.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a11db.dir\\Debug\\\\" /Fd"cmTC_a11db.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.52.37029 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4bbc1.dir\\Debug\\\\" /Fd"cmTC_4bbc1.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a11db.dir\\Debug\\\\" /Fd"cmTC_a11db.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kbq6yx\\Debug\\cmTC_4bbc1.exe" /INCREMENTAL /ILK:"cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-kbq6yx/Debug/cmTC_4bbc1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-kbq6yx/Debug/cmTC_4bbc1.lib" /MACHINE:X64  /machine:x64 cmTC_4bbc1.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_4bbc1.vcxproj -> C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kbq6yx\\Debug\\cmTC_4bbc1.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xjs9u\\Debug\\cmTC_a11db.exe" /INCREMENTAL /ILK:"cmTC_a11db.dir\\Debug\\cmTC_a11db.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-8xjs9u/Debug/cmTC_a11db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-8xjs9u/Debug/cmTC_a11db.lib" /MACHINE:X64  /machine:x64 cmTC_a11db.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a11db.vcxproj -> C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xjs9u\\Debug\\cmTC_a11db.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4bbc1.dir\\Debug\\cmTC_4bbc1.tlog\\cmTC_4bbc1.lastbuildstate".
-        Done Building Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kbq6yx\\cmTC_4bbc1.vcxproj" (default targets).
+          Deleting file "cmTC_a11db.dir\\Debug\\cmTC_a11db.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a11db.dir\\Debug\\cmTC_a11db.tlog\\cmTC_a11db.lastbuildstate".
+        Done Building Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xjs9u\\cmTC_a11db.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.04
+        Time Elapsed 00:00:00.91
         
       exitCode: 0
   -
@@ -1360,8 +1326,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-nujnti"
-      binary: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-nujnti"
+      source: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-wfzh41"
+      binary: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-wfzh41"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1372,39 +1338,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-nujnti'
+        Change Dir: 'C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-wfzh41'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c3f9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4f553.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.12.3-1.26559.12+8df097b6f for .NET Framework
-        Build started 11/19/2026 6:56:03 PM.
+        Build started 11/19/2026 7:33:06 PM.
         
-        Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nujnti\\cmTC_c3f9e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wfzh41\\cmTC_4f553.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nujnti\\Debug\\".
-          Creating directory "cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.tlog\\".
+          Creating directory "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wfzh41\\Debug\\".
+          Creating directory "cmTC_4f553.dir\\Debug\\cmTC_4f553.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4f553.dir\\Debug\\cmTC_4f553.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4f553.dir\\Debug\\cmTC_4f553.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c3f9e.dir\\Debug\\\\" /Fd"cmTC_c3f9e.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4f553.dir\\Debug\\\\" /Fd"cmTC_4f553.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.52.37029 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c3f9e.dir\\Debug\\\\" /Fd"cmTC_c3f9e.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4f553.dir\\Debug\\\\" /Fd"cmTC_4f553.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nujnti\\Debug\\cmTC_c3f9e.exe" /INCREMENTAL /ILK:"cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-nujnti/Debug/cmTC_c3f9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-nujnti/Debug/cmTC_c3f9e.lib" /MACHINE:X64  /machine:x64 cmTC_c3f9e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c3f9e.vcxproj -> C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nujnti\\Debug\\cmTC_c3f9e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wfzh41\\Debug\\cmTC_4f553.exe" /INCREMENTAL /ILK:"cmTC_4f553.dir\\Debug\\cmTC_4f553.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-wfzh41/Debug/cmTC_4f553.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/CMakeScratch/TryCompile-wfzh41/Debug/cmTC_4f553.lib" /MACHINE:X64  /machine:x64 cmTC_4f553.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4f553.vcxproj -> C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wfzh41\\Debug\\cmTC_4f553.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c3f9e.dir\\Debug\\cmTC_c3f9e.tlog\\cmTC_c3f9e.lastbuildstate".
-        Done Building Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nujnti\\cmTC_c3f9e.vcxproj" (default targets).
+          Deleting file "cmTC_4f553.dir\\Debug\\cmTC_4f553.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4f553.dir\\Debug\\cmTC_4f553.tlog\\cmTC_4f553.lastbuildstate".
+        Done Building Project "C:\\Users\\meppf\\Downloads\\igvcopencv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wfzh41\\cmTC_4f553.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.18
+        Time Elapsed 00:00:01.07
         
       exitCode: 0
   -
@@ -1435,1379 +1401,4 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.52.37029.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:5 (find_package)"
-    name: "OpenCV"
-    configs:
-      -
-        filename: "OpenCV.cps"
-        kind: "cps"
-      -
-        filename: "opencv.cps"
-        kind: "cps"
-      -
-        filename: "OpenCVConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "opencv-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "OpenCV"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/user/Desktop/opencv/build/x64/vc16/lib/OpenCV.cps"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Desktop/opencv/build/x64/vc16/lib/opencv.cps"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Desktop/opencv/build/x64/vc16/lib/OpenCVConfig.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Desktop/opencv/build/x64/vc16/lib/opencv-config.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/Downloads/igvcopencv/build/CMakeFiles/pkgRedirects/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/VMware/VMware Workstation/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Pololu/Maestro/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Acronis/FileProtector64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/usbipd-win/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/WSL/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Python/Launcher/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Microsoft/WindowsApps/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Nmap/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/user/AppData/Local/Muse Hub/lib/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/OpenCV.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/opencv.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.52.37025\\bin\\HostX64\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
-        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
-        - "C:\\Program Files (x86)\\Pololu\\Maestro\\bin"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\"
-        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile\\"
-        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64\\"
-        - "C:\\Program Files (x86)\\Common Files\\Acronis\\FileProtector\\"
-        - "C:\\Program Files (x86)\\Common Files\\Acronis\\FileProtector64\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\usbipd-win\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\WSL\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\meppf\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\meppf\\.dotnet\\tools"
-        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\meppf\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts"
-        - "C:\\Users\\meppf\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts"
-        - "C:\\Program Files (x86)\\Nmap"
-        - "C:\\Users\\meppf\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "C:\\Users\\meppf\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/OpenCVTest"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/OpenCVTest"
 ...
